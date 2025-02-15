@@ -62,6 +62,10 @@
     border-radius: 4px;
 }
 
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
 .search-select{
     background-color: #f3f3f3;
     width: 50px;
@@ -98,5 +102,37 @@ span{
     font-weight: 700;
 }
 
+/* box6 */
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
 
+/* panel */
+.panel{
+    height: 40px;
+    color: white;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;    /* x-axis */
+    align-items: center;           /*cross-axis (y-axis)*/
+    gap: 1rem;
+}
+
+.panel-ops{
+    width: 70%;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
 /* rem unit */
